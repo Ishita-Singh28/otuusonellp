@@ -1,0 +1,18 @@
+.servicePage {
+    padding-inline: 8%;
+    margin-block: 2rem;
+
+    @media screen and (max-width:480px) {
+        padding-inline: 0%;
+
+    }
+
+    >div {
+        margin-block: 5rem;
+
+        @media screen and (max-width:480px) {
+            margin-block: 0;
+
+        }
+    }
+}

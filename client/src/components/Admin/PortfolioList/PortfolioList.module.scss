@@ -1,0 +1,101 @@
+.portfolioListWrapper {
+  .ourRecentWork {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-block: 6rem;
+
+    h4 {
+      margin-block: 1rem;
+    }
+  }
+
+  .heading {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 3rem;  
+}
+
+
+  .recentWorkCard {
+    padding-inline: 8%;
+    display: flex;
+    flex-wrap: wrap;
+
+    >div {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 2.5%;
+      height: 100%;
+      margin-block-end: 1rem;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 15rem;
+        margin-block-end: 1rem;
+        object-fit: cover;
+      }
+
+      p {
+        color: #808080;
+        font-size: 0.9rem;
+        margin-block-start: 1rem;
+      }
+
+      >div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+      }
+
+    }
+  }
+
+  .seeAllBtn {
+    width: fit-content;
+    margin: auto;
+    margin-block: 2rem 5rem;
+
+    button {
+      border-radius: 0rem;
+      padding-block: 0.5rem;
+      padding-inline: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolioListWrapper {
+    padding-inline: 6%;
+
+    .ourRecentWork {
+      width: 100%;
+    }
+
+    .recentWorkCard {
+      flex-direction: column;
+      padding-inline: 0;
+
+      >div {
+        width: 100%;
+        height: fit-content;
+        margin-block: 1rem;
+        position: unset;
+        padding: 5%;
+
+        img {
+          height: 10rem;
+        }
+
+        >div {
+          margin-block-start: 1rem;
+          cursor: pointer;
+          position: unset;
+        }
+      }
+    }
+  }
+}

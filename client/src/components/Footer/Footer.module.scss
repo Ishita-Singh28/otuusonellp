@@ -1,0 +1,36 @@
+.footerContainer {
+    padding-inline: 8%;
+    border-top: 3px solid #E8EEFB;
+
+    >div:nth-child(1) {
+        display: flex;
+        border-right: 3px solid #E8EEFB;
+        padding-block: 3%;
+
+
+        p {
+            margin: auto;
+            padding-inline: 12%;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #545454;
+        }
+    }
+
+    >div:nth-child(2) {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footerContainer {
+        >div:nth-child(1) {
+            img +p {
+                font-size: 0.8rem;
+                font-weight:400;
+                color: #545454;
+            }
+        }
+    }
+
+}

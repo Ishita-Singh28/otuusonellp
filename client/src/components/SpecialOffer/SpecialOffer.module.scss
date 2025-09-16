@@ -1,0 +1,41 @@
+.SpecialOfferContainer {
+    padding-inline: 8%;
+    background-color: #F7FCFF;
+    padding-block: 4%;
+
+    p {
+        font-size: 0.8rem;
+        margin-block: 1rem;
+        margin-block-end: 2rem;
+    }
+
+    .SpecialOffer {
+        display: flex;
+        justify-content: space-between;
+        margin-block-start: 5%;
+
+        .card {
+            width: 32%;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .SpecialOfferContainer {
+        padding-inline: 6%;
+        padding-block: 5%;
+        .SpecialOffer {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                width: 100%;
+                padding-block: 4%;
+                border-radius: 0.5rem;
+                margin-block: 1rem;
+                background-color: #ffffff;
+            }
+        }
+    }
+
+}

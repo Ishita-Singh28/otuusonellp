@@ -1,0 +1,44 @@
+.TalkSectionContainer {
+    background-color: #6E1B5D;
+    color: #ffffff;
+    padding: 5%;
+    padding-inline: 8%;
+
+    >div:nth-child(1) {
+        padding-inline-end: 14%;
+
+        h4 {
+            margin-block-end: 1rem;
+        }
+    }
+
+    >div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+        >div {
+            button {
+                background-color: #B3125E;
+                padding-inline: 2rem;
+                padding-block: 0.5rem;
+            }
+        }
+
+        >div:nth-child(1) {
+            margin-inline-end: 0.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .TalkSectionContainer {
+        padding-inline: 6%;
+        padding-block: 10%;
+
+        >div:nth-child(2) {
+            margin-block-start: 1rem;
+        }
+    }
+
+}

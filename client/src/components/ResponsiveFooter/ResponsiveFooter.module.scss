@@ -1,0 +1,31 @@
+.responsiveFooterContainer {
+    padding-inline: 6%;
+    padding-block: 8%;
+    border-top: 1px solid #e3e3e3;
+
+    >div:nth-child(2) {
+        h5 {
+            margin-block-end: 1rem;
+        }
+
+        margin-block: 1.6rem;
+
+        >div {
+            display: flex;
+
+            >div {
+                width: 49%;
+            }
+        }
+    }
+
+    >div:nth-child(3) {
+        h5 {
+            margin-block-end: 1rem;
+        }
+
+        img {
+            margin-inline-end: 1rem;
+        }
+    }
+}

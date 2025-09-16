@@ -1,0 +1,18 @@
+.teamContainer {
+    border: 1px solid blue;
+
+    >div:nth-child(1) {
+        text-align: center;
+        margin: auto;
+        background-color: #6E1B5D;
+        color: #ffffff;
+        padding-inline: 5%;
+        padding-block: 5%;
+
+        p {
+            width: 65%;
+            margin: auto;
+        }
+
+    }
+}

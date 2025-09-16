@@ -1,0 +1,142 @@
+.careerContainer {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif !important;
+
+  .careerAbout {
+    padding-inline: 8%;
+    padding-block: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+      width: 32%;
+      text-align: center;
+
+      h2 {
+        color: #161C2D;
+      }
+
+      p {
+        padding-inline: 15%;
+        margin-block-start: 1rem;
+        color: #161C2D;
+      }
+    }
+  }
+
+  .joinUs {
+    padding-inline: 8%;
+
+    > div:nth-child(1) {
+      text-align: center;
+      padding-inline: 25%;
+    }
+
+    .formContainer {
+      margin-top: 2rem;
+      background-color: #ffff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: rgba(90, 94, 99, 0.2) 0px 8px 24px;
+    }
+  }
+
+  .label {
+  display: block;
+  margin-bottom: 10px;
+//   font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+  .input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+
+  &:focus {
+    border-color: #6E1B5D;
+    outline: none;
+  }
+}
+
+
+
+  .submitBtn {
+    background-color: #6E1B5D;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #B3125E;
+    }
+  }
+
+  .formContainerOuter {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.formContainer {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  max-width: 800px; // limits the form width
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .careerContainer {
+    .careerAbout {
+      flex-direction: column;
+      padding-inline: 6%;
+      padding-block-start: 8%;
+
+      .card {
+        width: 100%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 5%;
+        margin-block-end: 1rem;
+      }
+    }
+
+    .joinUs {
+      padding-inline: 6%;
+      padding-block: 8%;
+
+      > div:nth-child(1) {
+        padding-inline: 0;
+      }
+
+      .formContainer {
+        padding: 1.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+  .formContainerOuter {
+    padding: 1.5rem 1rem;
+  }
+
+  .formContainer {
+    padding: 1.5rem;
+  }
+}
+
+}

@@ -1,0 +1,73 @@
+.offerCard {
+    width: 100%;
+    height: 39rem;
+    padding-block-start: 4%;
+    padding-block-end: 6%;
+    border-radius: 0.5rem;
+    padding: 8%;
+    background-color: #ffffff;
+    position: relative;
+
+    h2 {
+        margin-block: 1.5rem;
+    }
+
+    >div {
+        p {
+            margin-block: 0.8rem;
+            padding-inline: 6%;
+
+            span {
+                margin-inline-start: 0.5rem;
+            }
+        }
+    }
+
+    >div+div {
+        display: flex;
+        justify-content: center;
+        margin-block-start: 2.4rem;
+        position: absolute;
+        bottom: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        button {
+            border-radius: 2rem;
+            padding-inline: 2rem;
+            padding-block: 0.5rem;
+
+        }
+    }
+
+    &:hover {
+        background: linear-gradient(97.1deg, #6E1B5D 22.14%, #B3125E 106.45%);
+        color: #ffffff;
+
+        >div+div {
+
+            button {
+
+                background-color: #ffffff;
+                color: #000000;
+
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .offerCard {
+        height: fit-content;
+        padding-block-end: 25%;
+
+        >div+div {
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+}

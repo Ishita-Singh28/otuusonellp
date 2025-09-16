@@ -1,0 +1,21 @@
+.headerContainer {
+    padding-inline: 8%;
+
+    >div:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            margin-block: auto;
+            cursor: pointer;
+        }
+
+        p:nth-child(6) {
+            background-color: #6e1b5d;
+            color: #ffffff;
+            padding-block: 0.5rem;
+            padding-inline: 1rem;
+            border-radius: 0.25rem;
+        }
+    }
+}

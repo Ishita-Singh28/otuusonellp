@@ -1,0 +1,18 @@
+.customSearchContainer {
+    width: fit-content;
+    background-color: #ffffff;
+    padding: 0.35rem;
+    display: flex;
+    border-radius: 0.5rem;
+
+    >div:nth-child(1) {
+        width: 16rem;
+
+        >div {
+            height: 2rem;
+            border: unset;
+            font-size: 0.8rem;
+        }
+    }
+
+}

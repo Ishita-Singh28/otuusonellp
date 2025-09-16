@@ -1,0 +1,119 @@
+.portfolioDetailsContainer {
+    padding-inline: 8%;
+    margin-block: 3rem;
+
+    .image {}
+
+    .details {
+        width: fit-content;
+        height: fit-content;
+        padding-inline-start: 2%;
+
+
+        p {
+            padding-block: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        >div:nth-last-child(1) {
+            margin-block-start: 1rem;
+
+            button {
+                border-radius: 0;
+                font-size: 0.8rem;
+                padding-block: 0.5rem;
+
+            }
+        }
+    }
+
+    .moreProduct {
+        h2 {
+            margin-block-start: 2rem;
+            margin-block-end: 2.5rem;
+        }
+    }
+
+    .recentWorkCard {
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            // border: 2px solid blue;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 2%;
+            width: 32.5%;
+            height: 32rem;
+            margin-block-end: 1rem;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 14rem;
+            }
+
+            p {
+                color: #808080;
+                font-size: 0.9rem;
+            }
+
+            >div {
+                // margin-block-start: 1rem;
+                cursor: pointer;
+                position: absolute;
+                bottom: 10%;
+            }
+        }
+    }
+
+    .recentWorkCard+div {
+        width: fit-content;
+        margin: auto;
+        margin-block-start: 2rem;
+        margin-block-end: 5rem;
+
+        button {
+            border-radius: 0rem;
+            padding-block: 0.5rem;
+            padding-inline: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .portfolioDetailsContainer {
+        p {
+            font-size: 0.8rem;
+            color: #808080;
+        }
+
+        .moreProduct {
+            .recentWorkCard {
+                display: flex;
+                flex-direction: column;
+
+                >div {
+                    width: 100%;
+                    height: fit-content;
+                    margin-block: 1rem;
+                    position: unset;
+                    padding: 5%;
+
+                    img {
+                        height: 10rem;
+                    }
+
+                    >div {
+                        margin-block-start: 1rem;
+                        cursor: pointer;
+                        position: unset;
+                        // bottom: 5%;
+
+                    }
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,13 @@
+.customButtonContainer {
+    button {
+        color: #ffffff;
+        text-transform: unset;
+        background-color: #6e1b5d;
+        padding-block: 0.5rem;
+        padding-inline: 2.5rem;
+
+        &:hover {
+            background-color: #6e1b5d;
+        }
+    }
+}

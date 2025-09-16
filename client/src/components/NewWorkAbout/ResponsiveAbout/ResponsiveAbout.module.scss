@@ -1,0 +1,198 @@
+.mobileAbout {
+    height: fit-content;
+    margin-block: 5%;
+
+    .newWorkAboutImg {
+
+        img {
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            display: none;
+
+        }
+
+        .animate1 {
+            animation: moveImage1 0.5s forwards, resizeImage1 0.5s forwards;
+            display: block;
+        }
+
+        @keyframes moveImage1 {
+            from {
+                transform: translate(50%, 50%);
+            }
+
+            to {
+                transform: translate(16%, 0px);
+            }
+        }
+
+        @keyframes resizeImage1 {
+            from {
+                width: 292px;
+                height: 335px;
+            }
+
+            to {
+                width: 292px;
+                height: 335px;
+            }
+        }
+
+        .animate2 {
+            animation: moveImage2 0.5s forwards, resizeImage2 0.5s forwards;
+            display: block;
+        }
+
+        @keyframes moveImage2 {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(16%, 0%);
+            }
+        }
+
+        @keyframes resizeImage2 {
+            from {
+                width: 292px;
+                height: 335px;
+            }
+
+            to {
+                width: 292px;
+                height: 335px;
+            }
+        }
+
+        .animate3 {
+            animation: moveImage3 0.5s forwards, resizeImage3 0.5s forwards;
+            display: block;
+        }
+
+        @keyframes moveImage3 {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(16%, 0%);
+            }
+        }
+
+        @keyframes resizeImage3 {
+            from {
+                width: 292px;
+                height: 335px;
+            }
+
+            to {
+                width: 292px;
+                height: 335px;
+            }
+        }
+
+        .animate4 {
+            animation: moveImage4 0.5s forwards, resizeImage4 0.5s forwards;
+            display: block;
+        }
+
+        @keyframes moveImage4 {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(16%, 0%);
+            }
+        }
+
+        @keyframes resizeImage4 {
+            from {
+                width: 292px;
+                height: 335px;
+            }
+
+            to {
+                width: 292px;
+                height: 335px;
+            }
+        }
+
+        .animate5 {
+            animation: moveImage5 0.5s forwards, resizeImage5 0.5s forwards;
+            display: block;
+        }
+
+        @keyframes moveImage5 {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(16%, 0%);
+            }
+        }
+
+        @keyframes resizeImage5 {
+            from {
+                width: 292px;
+                height: 335px;
+            }
+
+            to {
+                width: 292px;
+                height: 335px;
+            }
+        }
+    }
+
+    .newWorkAboutInfo {
+        position: relative;
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+
+        h4,
+        h5 {
+            padding-inline-start: 0%;
+        }
+
+        h5 {
+            color: #000000;
+            line-height: 2.3rem;
+            margin-block-start: 2rem;
+            padding: 0%;
+        }
+
+        p {
+            margin: auto;
+            font-size: 0.9rem;
+        }
+
+        p:nth-child(2) {
+            color: #1C8CE0;
+            font-weight: 500;
+        }
+
+        p:nth-child(3) {
+            color: #F06971;
+            font-weight: 500;
+        }
+
+
+        .bgStyle {
+            position: absolute;
+            top: -16%;
+            left: 0%;
+            z-index: -1;
+
+            svg {
+                font-size: 9rem;
+                color: #F1F1F1;
+            }
+        }
+    }
+
+}

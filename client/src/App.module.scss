@@ -1,0 +1,20 @@
+.appContainer {
+
+    >div:nth-child(1) {
+        >div:nth-child(1) {
+            @media screen and (max-width:480px) {
+
+                display: none;
+            }
+        }
+
+        >div:nth-child(2) {
+            display: none;
+
+            @media screen and (max-width:480px) {
+
+                display: block;
+            }
+        }
+    }
+}

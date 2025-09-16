@@ -1,0 +1,55 @@
+.contactModalContainer {
+    width: 45rem;
+    height: fit-content;
+    margin: auto;
+
+    .contactModal {
+        background-color: #ffffff;
+        padding: 8%;
+        border-radius: 0.5rem;
+
+        .inputFields {
+            >div:nth-child(1) {
+                margin-block: 1rem;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                >div {
+                    width: 48%;
+                }
+            }
+
+            >div:nth-child(2),
+            >div:nth-child(3) {
+                margin-block: 2rem;
+                >div {
+                    label {
+                        svg {
+                            font-size: 1.25rem;
+                        }
+
+                        span {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+            >div:nth-child(5){
+                display: flex;
+                justify-content: right;
+                margin-block-start: 1rem;
+                >div:nth-child(1){
+                    margin-inline-end: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contactModalContainer{
+        width: 100%;
+    }
+    
+}

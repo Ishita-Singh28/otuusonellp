@@ -1,0 +1,40 @@
+.jobModalContainer {
+    width: 42rem;
+    height: fit-content;
+    margin: auto;
+
+    @media screen and (max-width:480px) {
+        width: 100%;
+
+    }
+
+    .jobModal {
+        background-color: #ffffff;
+        padding: 8%;
+        border-radius: 0.5rem;
+
+        .fields {
+            display: flex;
+            justify-content: space-between;
+
+            >div {
+                width: 48%;
+
+                >div {
+                    margin-block: 2rem;
+                }
+            }
+        }
+
+        .action {
+            display: flex;
+            justify-content: right;
+
+            >div:nth-child(1) {
+                margin-inline-end: 1rem;
+            }
+        }
+    }
+
+
+}

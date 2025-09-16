@@ -1,0 +1,52 @@
+.careerBannerContainer {
+    position: relative;
+    height: 35rem;
+
+    .bgImage {
+        height: 35rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h2 {
+            color: #6E1B5D;
+        }
+
+        >div {
+            margin-block: 1rem;
+        }
+    }
+
+    .content+svg {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .careerBannerContainer {
+        height: 25rem;
+
+        .bgImage {
+            height: 25rem;
+        }
+
+        .content {
+            width: 100%;
+        }
+    }
+
+}

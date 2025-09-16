@@ -1,0 +1,57 @@
+.ourTeamContainer {
+    background-color: #6E1B5D;
+    padding-block: 4%;
+    padding-inline: 8%;
+
+    >div {
+        text-align: center;
+        color: #ffffff;
+        width: 30%;
+        margin: auto;
+        margin-block-start: 1.6rem;
+
+        p {
+            font-weight: 300;
+        }
+
+    }
+
+    .ourTeam {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            width: 24%;
+            position: relative;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+            .image {
+                border-radius: 0.5rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .name {
+                position: absolute;
+                bottom: 0%;
+                width: 100%;
+                background-color: #ffffff;
+                color: #333333;
+                padding: 5%;
+                border-radius: 0.5rem;
+                box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+                >div {
+                    display: flex;
+                    margin-block-end: 1rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,144 @@
+.commonBannerContainer {
+    padding-inline: 8%;
+
+    .commonBanner {
+        height: 32rem;
+        position: relative;
+        border-radius: 0.75rem;
+
+        .bgImg {
+            height: 32rem;
+            border-radius: 0.75rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 0.75rem;
+            }
+        }
+
+        .bgOpicity {
+            position: absolute;
+            border-radius: 0.75rem;
+            top: 0%;
+            height: 32rem;
+            width: 100%;
+            background-color: #000000;
+            opacity: 0.4;
+        }
+
+        .content {
+            position: absolute;
+            border-radius: 0.75rem;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+            >div {
+                width: 80%;
+                height: fit-content;
+                margin-inline: auto;
+                margin-block-start: 10%;
+
+                h1 {
+                    font-size: 2.65rem;
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    color: #ffffff;
+                    padding-block: 1rem;
+                }
+
+                >div {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .weWork {
+        margin-block: 2rem;
+        width: 95%;
+        margin-inline: auto;
+
+        h2 {
+            color: #667294;
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        >div {
+            display: flex;
+            margin-block: 2rem;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .commonBannerContainer {
+        padding: 0;
+        width: 100%;
+
+        .commonBanner {
+            width: fit-content;
+            border-radius: 0%;
+            height: 17rem;
+
+            .bgImg,
+            .bgOpicity,
+            .content {
+                border-radius: 0% !important;
+                height: 17rem;
+
+            }
+
+            .content {
+                top: 50%;
+
+                >div {
+                    width: 94%;
+
+                    h1 {
+                        padding: 0%;
+                        font-size: 1.6rem !important;
+                        font-weight: 600;
+                        width: 100%;
+
+                    }
+
+                    p {
+                        // display: none;
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+
+        .weWork {
+            width: 80%;
+
+            h2 {
+                margin-block: 1.25rem;
+            }
+
+            div {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-block: 0.5rem;
+            }
+        }
+
+        hr {
+            width: 100%;
+        }
+    }
+}

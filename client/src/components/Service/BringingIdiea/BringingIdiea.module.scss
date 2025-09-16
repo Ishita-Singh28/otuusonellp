@@ -1,0 +1,44 @@
+.bringingIdieaContainer {
+    >div:nth-child(1) {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        margin-block-end: 2rem;
+
+    }
+
+    .bringingIdiea {
+        .bringingIdieaCard {
+            display: flex;
+            justify-content: space-between;
+
+            >div {
+                width: 32.5%;
+                border-radius: 0.6rem;
+                margin-block-end: 1rem;
+                text-align: center;
+                padding: 1.5%;
+                background-color: #ffffff;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+                img {
+                    width: 100%;
+                }
+
+                h4 {
+                    color: #2E2E2E;
+                    margin-block: 1rem;
+                }
+
+                h5 {
+                    color: #808080;
+                    font-size: 0.9rem;
+                    line-height: 1.6rem;
+                    padding-inline: 10%;
+                    margin-block-end: 1rem;
+                }
+
+            }
+        }
+    }
+}

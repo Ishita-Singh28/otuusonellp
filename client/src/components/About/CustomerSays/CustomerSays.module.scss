@@ -1,0 +1,91 @@
+.customerSaysContainer {
+    padding-inline: 20%;
+
+    >div:nth-child(1) {
+        text-align: center;
+    }
+
+    .customerSays {
+        display: flex;
+        justify-content: space-between;
+        margin-block-start: 3rem;
+
+        .cardContainer {
+            width: 30%;
+
+            .card {
+                padding: 4%;
+                display: flex;
+                margin-block: 0.5rem;
+                border-radius: 0.5rem;
+                cursor: pointer;
+                box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+
+                &:hover {
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+
+                img {
+                    width: 35%;
+                    margin-inline-end: 0.5rem;
+                }
+
+                h4 {
+                    margin-block: auto;
+                }
+
+            }
+
+            >div:nth-child(3) {
+                img {
+                    width: 15%;
+                    margin-inline-end: 17%;
+                    margin-inline-start: 7%;
+                }
+            }
+        }
+
+        .mesContainer {
+            width: 60%;
+
+            >div {
+                >div:nth-child(3) {
+                    p {
+                        font-size: 0.8rem;
+                        color: #808080;
+                        line-height: 1.6rem;
+                        margin-block-end: 1rem;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .customerSaysContainer {
+        padding-inline: 6%;
+        margin-block-start: 5%;
+
+        >div:nth-child(1) {
+            text-align: center;
+            width: 100%;
+        }
+
+        .customerSays {
+            display: flex;
+            flex-direction: column;
+
+            .cardContainer {
+                width: 100%;
+            }
+
+            .mesContainer {
+                width: 100%;
+                margin-block-start: 1rem;
+            }
+        }
+    }
+
+}

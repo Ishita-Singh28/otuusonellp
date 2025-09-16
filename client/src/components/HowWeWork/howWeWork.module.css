@@ -1,0 +1,35 @@
+.weWork {
+    margin-block: 2rem;
+    width: 95%;
+    margin-inline: auto;
+
+    h2 {
+        color: #667294;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    >div {
+        display: flex;
+        margin-block: 2rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .weWork {
+        width: 80%;
+
+        h2 {
+            margin-block: 1.25rem;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-block: 0.5rem;
+        }
+    }
+}

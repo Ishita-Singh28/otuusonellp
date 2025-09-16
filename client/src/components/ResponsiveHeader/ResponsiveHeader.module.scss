@@ -1,0 +1,33 @@
+.responsiveHeader {
+    position: relative;
+
+    .header {
+        padding: 5%;
+        display: flex;
+        justify-content: space-between;
+
+        svg {
+            margin-block: auto;
+        }
+    }
+
+    .menus {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        z-index: 1;
+        background-color: #555555;
+        color: #ffffff;
+
+        >div {
+            border-bottom: 1px solid #ffffff;
+        }
+
+        >div:hover {
+            background-color: #6E1B5D;
+        }
+    }
+
+
+}

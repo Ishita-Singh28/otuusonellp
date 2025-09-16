@@ -1,0 +1,35 @@
+.contactFormContainer {
+
+    >div {
+        margin-block-end: 1.5rem;
+
+        h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-block-end: 0.4rem;
+        }
+    }
+
+    >div:nth-child(3) {
+        width: 80%;
+
+        >div {
+            label {
+                svg {
+                    font-size: 1.25rem;
+                }
+
+                span {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    >div:nth-last-child(2) {
+        >div {
+            width: 60%;
+
+        }
+    }
+}

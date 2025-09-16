@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "label": "Website Design",
+        "desc": "Elevate Your Online Presence: Design that Inspires, Functionality that Empowers.",
+        "value": "5000"
+    },
+    {
+        "id": 2,
+        "label": "Mobile Application",
+        "desc": "Empowering Your Ideas: Innovative Mobile Solutions for Every Need.",
+        "value": "20,000"
+    },
+    {
+        "id": 1,
+        "label": "Software Application",
+        "desc": "Transforming Ideas into Reality: Tailored Software Solutions for Your Success.",
+        "value": "15,000"
+    },
+    {
+        "id": 1,
+        "label": "CMS Development",
+        "desc": "Empowering Your Content: Custom CMS Solutions for Seamless Management.",
+        "value": "18,000"
+    },
+    {
+        "id": 1,
+        "label": "Graphic",
+        "desc": "Visualize Success: Creative Graphics Solutions Tailored to Your Brand.",
+        "value": "500"
+    },
+    {
+        "id": 1,
+        "label": "UI/UX Design",
+        "desc": "Elevating Experiences: Intuitive UI/UX Designs for Seamless Interaction.",
+        "value": "300 per screen"
+    }
+]

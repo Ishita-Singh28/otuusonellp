@@ -1,0 +1,225 @@
+.ourExpertiseContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 4rem;
+    padding-inline: 8%;
+
+    >div {
+        width: 48%;
+
+        h2 {
+            margin-block: 2rem;
+        }
+
+    }
+
+    >div:nth-child(1) {
+        p {
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding-inline: 5%;
+            margin-block: 1rem;
+            // color: #6E1B5D;
+        }
+
+        .expertiseCard {
+            border-bottom: 2px solid #D9D9D999;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding-inline-start: 20%;
+            padding-inline-end: 0%;
+            border-radius: 0.5rem;
+            padding-block: 0.21rem;
+
+            h2 {
+                margin-block: auto;
+            }
+
+            p {
+
+                rotate: 320deg;
+
+                svg {
+                    padding: 0.5rem;
+                    border-radius: 50%;
+                    color: #000000;
+                    padding-block: 0.5rem;
+                    background-color: #ffffff;
+                }
+            }
+
+            &:hover {
+                background-color: #6E1B5D;
+                color: #ffffff;
+                padding-block: 0.21rem;
+            }
+        }
+
+        .active {
+            background-color: #6E1B5D;
+            color: #ffffff;
+        }
+
+    }
+
+    >div:nth-child(2) {
+        .serviceContainer {
+
+            .serviceIcon {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .appCard{
+                    width: 24%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: fill;
+                    }
+                }
+            }
+
+            .serviceInfo {
+                img {
+                    width: 100%;
+                    height: 60%;
+                    margin-block: 2rem;
+                    border-radius: 0.5rem;
+                }
+
+                h5 {
+                    font-size: 0.9rem;
+                    color: #6E1B5D;
+                    line-height: 1.8rem;
+                }
+
+                >div {
+                    display: flex;
+                    margin-block-start: 1rem;
+
+
+                    button {
+                        border-radius: 3rem;
+                        padding-inline: 1.9rem;
+                        padding-block: 0.5rem;
+                        border: 1px solid #6E1B5D;
+                        color: #000000;
+                    }
+
+                    >div {
+                        margin-block: auto;
+                        margin-inline-start: 0.5rem;
+
+                        svg {
+                            padding: 0.5rem;
+                            border-radius: 50%;
+                            rotate: 30deg;
+                            background-color: #6E1B5D;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+        >div:nth-child(3) {
+            display: flex;
+            flex-direction: column;
+            margin-block: 2rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+
+            p {
+                font-size: 0.8rem;
+                margin-block: 1.5rem;
+                color: #6E1B5D;
+            }
+
+            >div {
+
+                display: flex;
+
+                >button {
+                    border-radius: 2rem;
+                    border: 1px solid #6E1B5D;
+                    font-size: 0.8rem;
+                    color: #6E1B5D;
+                    text-transform: unset;
+                    padding-inline: 1.8rem;
+                }
+
+                >div {
+                    width: fit-content;
+                    height: fit-content;
+                    margin-inline: 0.25rem;
+
+                    svg {
+                        margin: auto;
+                        padding: 0.5rem;
+                        background-color: #6E1B5D;
+                        color: #ffffff;
+                        rotate: 60deg;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .ourExpertiseContainer {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 6%;
+        padding-block: 5%;
+
+        >div {
+            width: 100%;
+
+            h2 {
+                margin-block-start: 0rem;
+            }
+        }
+
+        >div:nth-child(2) {
+            margin-block-start: 2rem;
+
+            .appCard {
+                padding-block: 4rem !important;
+                width: 48% !important;
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                background-color: #D8D8D8;
+                margin-block: 0.5rem;
+
+                >div {
+                    width: 3.2rem !important;
+                    height: 3.2rem !important;
+                    margin: auto;
+
+                    img {
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                }
+
+                h5 {
+                    font-weight: 600;
+                    font-size: 0.65rem !important;
+                    padding-inline: 10%;
+                    padding-block-start: 0.25rem;
+                }
+            }
+        }
+    }
+
+
+}

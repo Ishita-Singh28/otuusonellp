@@ -1,0 +1,312 @@
+.newWorkAboutContainer {
+    // padding-block: 6%;
+
+    h4 {
+        width: 40%;
+        margin-block: 1.6rem;
+        line-height: 2.3rem;
+        padding-inline: 8%;
+    }
+
+    h5 {
+        color: #6E1B5D;
+        padding-inline: 8%;
+    }
+
+    .newWorkAbout {
+        height: 42rem;
+
+        .newWorkAboutImg {
+            position: relative;
+
+            .bgStyle {
+                position: absolute;
+                width: 47rem;
+                height: 33rem;
+                background-color: #F0F6FF;
+                border-radius: 48%;
+                top: 16%;
+                right: 20%;
+                rotate: 336deg;
+                z-index: -1;
+            }
+
+            img {
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+                border-radius: 0.5rem;
+                cursor: pointer;
+
+            }
+
+            img:nth-child(1) {
+                position: absolute;
+                left: 22%;
+                top: 12%;
+            }
+
+            img:nth-child(2) {
+                position: absolute;
+                right: 34%;
+                top: 5%;
+            }
+
+            img:nth-child(3) {
+                position: absolute;
+                left: 28%;
+                bottom: 13%;
+            }
+
+            img:nth-child(4) {
+                position: absolute;
+                right: 40%;
+                bottom: 6%;
+            }
+
+            img:nth-child(5) {
+                position: absolute;
+                right: 50%;
+                top: 43%;
+            }
+
+            img:nth-child(6) {
+                position: absolute;
+                right: 80%;
+                top: 43%;
+            }
+
+            .animate1 {
+                animation: moveImage1 0.5s forwards, resizeImage1 0.5s forwards;
+            }
+
+            @keyframes moveImage1 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(320px, 90px);
+                }
+            }
+
+            @keyframes resizeImage1 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+
+            .animate2 {
+                animation: moveImage2 0.5s forwards, resizeImage2 0.5s forwards;
+            }
+
+            @keyframes moveImage2 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(290px, -125px);
+                }
+            }
+
+            @keyframes resizeImage2 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+
+            .animate3 {
+                animation: moveImage3 0.5s forwards, resizeImage3 0.5s forwards;
+            }
+
+            @keyframes moveImage3 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(265px, -80px);
+                }
+            }
+
+            @keyframes resizeImage3 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+
+            .animate4 {
+                animation: moveImage4 0.5s forwards, resizeImage4 0.5s forwards;
+            }
+
+            @keyframes moveImage4 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(380px, -120px);
+                }
+            }
+
+            @keyframes resizeImage4 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+
+            .animate5 {
+                animation: moveImage5 0.5s forwards, resizeImage5 0.5s forwards;
+            }
+
+            @keyframes moveImage5 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(230px, 130px);
+                }
+            }
+
+            @keyframes resizeImage5 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+
+            .animate6 {
+                animation: moveImage6 0.5s forwards, resizeImage5 0.5s forwards;
+            }
+
+            @keyframes moveImage6 {
+                from {
+                    transform: translate(0, 0);
+                }
+
+                to {
+                    transform: translate(630px, -125px);
+                }
+            }
+
+            @keyframes resizeImage6 {
+                from {
+                    width: 91px;
+                    height: 100px;
+                }
+
+                to {
+                    width: 292px;
+                    height: 335px;
+                }
+            }
+        }
+
+        .newWorkAboutInfo {
+            position: relative;
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            padding-inline-start: 2%;
+
+            h4,
+            h5 {
+                padding-inline-start: 0%;
+            }
+
+            h5 {
+                color: #000000;
+                line-height: 2.3rem;
+                margin-block-start: 2rem;
+            }
+
+            p {
+                margin: auto;
+                font-size: 0.9rem;
+            }
+
+            p:nth-child(2) {
+                color: #1C8CE0;
+                font-weight: 500;
+            }
+
+            p:nth-child(3) {
+                color: #F06971;
+                font-weight: 500;
+            }
+
+
+            .bgStyle {
+                position: absolute;
+                top: -8%;
+                left: 2.75%;
+                z-index: -1;
+
+                svg {
+                    font-size: 7rem;
+                    color: #F1F1F1;
+
+                }
+            }
+        }
+
+    }
+
+    .responsiveAbout {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .newWorkAboutContainer {
+        padding-inline: 2%;
+
+        // padding-block: 5%;
+        h4 {
+            width: fit-content;
+            text-align: center;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        .newWorkAbout {
+            display: none;
+        }
+
+        .responsiveAbout {
+            display: block;
+        }
+    }
+
+}

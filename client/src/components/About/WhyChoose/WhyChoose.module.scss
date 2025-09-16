@@ -1,0 +1,120 @@
+.whyChooseContainer {
+    background-color: #F4F7FA;
+    padding-inline: 8%;
+    padding-block: 5%;
+
+    >div:nth-child(1) {
+        text-align: center;
+        width: 45%;
+        margin: auto;
+        margin-block-end: 3rem;
+
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #F64B4B;
+        }
+
+        p {
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 2.25rem;
+            text-transform: capitalize;
+            margin-block-start: 1rem;
+
+        }
+
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+
+        >div {
+            width: 32%;
+            display: flex;
+            border: 1px solid #e3e3e3;
+            margin-block-end: 1rem;
+            border-radius: 0.5rem;
+            background-color: #ffffff;
+            padding: 2%;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+                background-color: #6E1B5D;
+                color: #ffffff;
+
+                img {
+                    border: 1px solid #ffffff;
+                    border-radius: 0.5rem;
+                }
+
+            }
+
+
+            img {
+                width: 4rem;
+                margin-inline-end: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                width: 80%;
+                margin-block-start: 1rem;
+            }
+        }
+    }
+
+    .action {
+        >div:nth-child(1) {
+            p {
+                font-size: 0.8rem;
+                width: 70%;
+                line-height: 1.6rem;
+                margin-block: 1.6rem;
+            }
+        }
+
+        >div:nth-child(2) {
+            margin-block: auto;
+
+            >div {
+                width: 100%;
+                display: flex;
+                justify-content: right;
+
+                button {
+                    padding-inline: 2rem;
+                    padding-block: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .whyChooseContainer {
+        padding-inline: 6%;
+        padding-block-start: 10%;
+        >div:nth-child(1) {
+            width: 100%;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            >div {
+                width: 100%;
+            }
+        }
+
+    }
+
+}

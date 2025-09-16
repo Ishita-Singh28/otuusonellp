@@ -1,0 +1,23 @@
+.adminBanner {
+    background-color: #6E1B5D;
+    color: #FFFFFF;
+    padding-block: 6%;
+
+    p {
+        padding-inline: 28%;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-block-start: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .adminBanner {
+        padding-inline: 6%;
+        padding-block: 8%;
+
+        p {
+            padding-inline: 0;
+        }
+    }
+}
