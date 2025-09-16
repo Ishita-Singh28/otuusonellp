@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7734cc64.css",
-    "main.js": "/static/js/main.68791b3f.js",
+    "main.css": "/static/css/main.3bd53e6a.css",
+    "main.js": "/static/js/main.43d9c508.js",
     "static/media/Otusone banner.png": "/static/media/Otusone banner.351fa4444d5be046abcd.png",
     "static/media/growth.svg": "/static/media/growth.62b5d94a29428b2b940a53431d25589a.svg",
     "static/media/career.png": "/static/media/career.bc2b503dfd21c970475c.png",
@@ -87,11 +87,11 @@
     "static/media/Group 38633.png": "/static/media/Group 38633.300d5b0e59825c0dc67f.png",
     "static/media/Group 38594.png": "/static/media/Group 38594.b0e7cc35aee94a608974.png",
     "index.html": "/index.html",
-    "main.7734cc64.css.map": "/static/css/main.7734cc64.css.map",
-    "main.68791b3f.js.map": "/static/js/main.68791b3f.js.map"
+    "main.3bd53e6a.css.map": "/static/css/main.3bd53e6a.css.map",
+    "main.43d9c508.js.map": "/static/js/main.43d9c508.js.map"
   },
   "entrypoints": [
-    "static/css/main.7734cc64.css",
-    "static/js/main.68791b3f.js"
+    "static/css/main.3bd53e6a.css",
+    "static/js/main.43d9c508.js"
   ]
 }
